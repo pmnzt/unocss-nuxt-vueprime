@@ -1,5 +1,8 @@
 <script setup>
 import 'primevue/resources/themes/aura-light-green/theme.css'
+// tailwind preflight
+import '@unocss/reset/tailwind.css'
+
 import { useToast } from 'primevue/usetoast'
 
 const toast = useToast()
