@@ -5,4 +5,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-primevue',
   ],
+  primevue: {
+    cssLayerOrder: 'tailwind-reset,primevue',
+  },
 })
